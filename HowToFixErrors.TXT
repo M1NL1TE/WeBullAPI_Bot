@@ -1,0 +1,24 @@
+How I got Trading_bot.py to run with no errors.
+
+1) Talib error was fixed by going to https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib and installing the respective .whl file for the version of Python and architecture of windows (64-bit)
+
+2) Then I ran the pip command to install the .whl file and the talib issue was fixed
+
+3) to fix the rest of the import errors I fixed the last error in the stack first which was "from collections import Mapping
+ImportError: cannot import name 'Mapping' from 'collections' (C:\Users\minli\AppData\Local\Programs\Python\Python310\lib\collections\__init__.py)"
+I fixed it by looking it up and found the solution in this StackOverflow thread: https://stackoverflow.com/questions/69381312/in-vs-code-importerror-cannot-import-name-mapping-from-collections
+the fix was to do this:
+
+1) Click the line in the terminal to go to the referenced file: File "C:\Users\KingMinliteTG-PC\AppData\Local\Programs\Python\Python310\lib\site-packages\prompt_toolkit\styles\from_dict.py", line 9, in <module>
+    from collections import Mapping
+
+2) change:
+
+from collections import Mapping
+to
+
+from collections.abc import Mapping
+
+
+Note: the solution is also mentioned in this reddit post: https://www.reddit.com/r/learnpython/comments/kwhrbq/how_do_i_install_talib_on_windowsvscode/
+Which leads to this StackOverflow post where the answer is the last comment: https://stackoverflow.com/questions/65703324/how-to-install-ta-lib-on-vscode-windows64bit
