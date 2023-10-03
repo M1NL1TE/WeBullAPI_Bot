@@ -28,7 +28,7 @@ Before you begin, ensure you have met the following requirements:
 
 - Read [HowToFixErrors](HowToFixErrors) files to fix any dependency issues
 - Dependencies listed in `requirements.txt`
-- A WeBull account with API access (refer to [WeBull API documentation](https://developer.webull.com/docs) for details on obtaining API credentials)
+- A WeBull account with API access (refer to [WeBull API documentation]([https://developer.webull.com/docs](https://developer.webull.com/api-doc/prepare/api_apply/)) for details on obtaining API credentials)
 
 ### Installation
 
