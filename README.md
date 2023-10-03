@@ -7,6 +7,8 @@
 
 ## Overview
 
+*** THIS PROJECT IS DEPRACATED DUE TO WEBULL CHANGING THEIR API ENDPOINTS AND BLOCKING PROXY SERVER TRAFFIC. THEY ALSO NO LONGER HAVE A WEB BASED TRADING PLATFORM FOR EASY ACCESS TO VIEWING NETWORK TRAFFIC***
+
 This project is a trading bot that interacts with the WeBull API to automate trading tasks and gather financial data. The bot is designed to perform actions such as placing orders, retrieving account information, and analyzing market data.
 
 **Note**: This project is based on the [tedchou12/webull](https://github.com/tedchou12/webull) repository, which provides essential API functionality for interacting with the WeBull platform. We've built upon this foundation to create a customized trading bot.
@@ -24,7 +26,7 @@ This project is a trading bot that interacts with the WeBull API to automate tra
 
 Before you begin, ensure you have met the following requirements:
 
-- Python 3.7+
+- Read [HowToFixErrors](HowToFixErrors) files to fix any dependency issues
 - Dependencies listed in `requirements.txt`
 - A WeBull account with API access (refer to [WeBull API documentation](https://developer.webull.com/docs) for details on obtaining API credentials)
 
