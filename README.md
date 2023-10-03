@@ -9,7 +9,7 @@
 
 *** THIS PROJECT IS DEPRACATED DUE TO WEBULL CHANGING THEIR API ENDPOINTS AND BLOCKING PROXY SERVER TRAFFIC. THEY ALSO NO LONGER HAVE A WEB BASED TRADING PLATFORM FOR EASY ACCESS TO VIEWING NETWORK TRAFFIC***
 
-This project is a trading bot that interacts with the WeBull API to automate trading tasks and gather financial data. The bot is designed to perform actions such as placing orders, retrieving account information, and analyzing market data.
+This project is a trading bot that interacts with the WeBull API to automate trading tasks and gather financial data. The bot is designed to perform actions such as placing orders, retrieving account information, and analyzing market data. I use ChatGPT to complement my current knowledge of coding. It is not a replacement for programming as it still has a lot of shortcomings, but it is a great tool if used the right way.
 
 **Note**: This project is based on the [tedchou12/webull](https://github.com/tedchou12/webull) repository, which provides essential API functionality for interacting with the WeBull platform. We've built upon this foundation to create a customized trading bot.
 
