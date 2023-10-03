@@ -65,5 +65,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Have questions or suggestions? Feel free to [open an issue](https://github.com/M1NL1TE/WeBullAPI_Bot/issues) on GitHub.
 
-```
+
 
